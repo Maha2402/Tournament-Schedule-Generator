@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="task1.css">
+   <script src="task2.js"></script>
+</head>
+<body>
+    <h1>Team Schedule</h1>
+    <div>
+        <label for="dateinput">Enter Date for Day 1:</label>
+        <input type="text" id="dateinput" placeholder="Enter date">
+    </div>
+    <div>
+        <label for="teamselection">Select Two Teams :</label>
+        <input type="text" id="teamselection" placeholder="Enter teams">
+        <button onclick="addToSchedule()">Add to Schedule</button>
+    </div>
+    <table>
+        <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+        </tr>
+        <tr>
+            <td id="day1"></td>
+            <td id="day2"></td>
+            <td id="day3"></td>
+        </tr>
+    </table>
+     <label id="d1"></label><br>
+     <label id="d2"></label><br>
+     <label id="d3"></label>
+   
+</body>
+</html>
+
